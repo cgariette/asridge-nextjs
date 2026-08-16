@@ -8,19 +8,23 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  /* Brand tokens — Tailwind v4 generates text-sky, bg-sky, border-sky, etc.
+     directly from these CSS variables. */
+  --color-sky: #009EDB;
+  --color-brand: #1B3A5C;
+  --color-brand-light: #2E5580;
+  --color-brand-dark: #12283F;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Montserrat is confirmed working site-wide now, so this no longer
+   needs to be a blanket !important override on every element - that
+   was only ever a stopgap while we were debugging font loading, and
+   it would block any deliberate second typeface (like the technical
+   mono accent in the hero) from ever rendering. Set it as the base
+   body font instead; specific elements can still override normally. */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
