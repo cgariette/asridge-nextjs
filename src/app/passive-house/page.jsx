@@ -44,7 +44,7 @@ export default function PassiveHousePage() {
       {/* Banner */}
       <section className="relative h-[320px] w-full overflow-hidden flex items-center justify-center">
         <Image
-          src="/passive-house-banner.png"
+          src="/passive-house-banner.jpg"
           alt="Passive House"
           fill
           priority
@@ -101,7 +101,7 @@ export default function PassiveHousePage() {
       {/* CTA band */}
       <section className="relative h-[280px] w-full overflow-hidden flex items-center">
         <Image
-          src="/passive-house-cta.png"
+          src="/passive-house-cta.jpg"
           alt="Passive House project"
           fill
           className="object-cover"

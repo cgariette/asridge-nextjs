@@ -8,7 +8,7 @@ const headingClass = "text-sky font-semibold text-[16px] uppercase tracking-wide
 const projects = [
   {
     title: "Rize Parklands \u2013 Foundation Value Engineering, 21 Storeys",
-    image: "/projects/rize-parklands.png",
+    image: "/projects/rize-parklands.jpg",
     problem:
       "The client was not convinced the foundation for a 21-storey building was good value, and asked us to check the concrete and steel quantities.",
     whatWeDid:
@@ -18,7 +18,7 @@ const projects = [
   },
   {
     title: "Utopia Parklands \u2013 Water Leak Investigation and Repair",
-    image: "/projects/utopia-parklands.png",
+    image: "/projects/utopia-parklands.jpg",
     problem:
       "A 16-storey building next to an 18-storey tower was letting water in at the shared wall between them.",
     whatWeDid:

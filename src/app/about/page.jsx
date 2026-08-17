@@ -24,7 +24,7 @@ const team = [
     name: "Abdullah Aksoy",
     title: "Structural Designer",
     email: "abdullah@asridge.ca",
-    photo: "/team/abdullah-aksoy.png",
+    photo: "/team/abdullah-aksoy.jpg",
     bio: "Abdullah is a design engineer whose experience covers site investigation, geotechnical and durability testing, and deep foundations, work he brought from years on the 1915 Canakkale Bridge.",
     education: "Master of Applied Science in Civil Engineering - University of Windsor.",
     credentials: ["Revit", "Navisworks", "BIM 360", "SAP2000", "Advance Steel", "AutoCAD", "ArcGIS"],

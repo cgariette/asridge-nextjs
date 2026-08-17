@@ -8,7 +8,7 @@ const services = [
   { label: "Structural Engineering", image: "/services/structural-engineering.png" },
   { label: "Foundations and Value Engineering", image: "/services/foundations.png" },
   { label: "High-Performance & Passive House", image: "/services/passive-house.png" },
-  { label: "Durability and Restoration", image: "/services/durability.png" },
+  { label: "Durability and Restoration", image: "/services/durability.jpg" },
   { label: "Project Management and Controls", image: "/services/project-management.png" },
   { label: "Studies, Assessment and BIM", image: "/services/studies-bim.png" },
 ];

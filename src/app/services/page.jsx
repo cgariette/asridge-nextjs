@@ -60,9 +60,9 @@ const serviceCategories = [
 ];
 
 const showcaseImages = [
-  { src: "/services/showcase-construction.png", alt: "Building under construction" },
+  { src: "/services/showcase-construction.jpg", alt: "Building under construction" },
   { src: "/services/showcase-house.jpg", alt: "Modern high-performance home" },
-  { src: "/services/showcase-bridge.png", alt: "Cable-stayed bridge" },
+  { src: "/services/showcase-bridge.jpg", alt: "Cable-stayed bridge" },
 ];
 
 const whoWeServe = [
@@ -97,7 +97,7 @@ export default function ServicesPage() {
       {/* Banner */}
       <section className="relative h-[320px] w-full overflow-hidden flex items-center justify-center">
         <Image
-          src="/services-banner.png"
+          src="/services-banner.jpg"
           alt="Asridge Consulting services"
           fill
           priority

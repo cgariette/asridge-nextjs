@@ -8,13 +8,13 @@ const headingClass = "text-sky font-semibold text-[16px] uppercase tracking-wide
 const featured = [
   {
     title: "1915 Canakkale Bridge, Turkiye",
-    image: "/projects/featured/canakkale-bridge.png",
+    image: "/projects/featured/canakkale-bridge.jpg",
     caption:
       "The world's longest-span suspension bridge, featuring a 2,023-meter main span and connecting two continents.",
   },
   {
     title: "Gordie Howe International Bridge",
-    image: "/projects/featured/gordie-howe-bridge.png",
+    image: "/projects/featured/gordie-howe-bridge.jpg",
     caption:
       "2.5-kilometre (1.5-mile) cable-stayed bridge spanning the Detroit River, connecting Windsor, Ontario, and Detroit, Michigan.",
   },
