@@ -3,8 +3,8 @@ export default function robots() {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: "/api/", // no reason for search engines to crawl the API route
+      disallow: "/api/",
     },
-    sitemap: "https://asridge.com/sitemap.xml",
+    sitemap: "https://asridge.ca/sitemap.xml",
   };
 }

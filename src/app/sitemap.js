@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = "https://asridge.com";
+  const baseUrl = "https://asridge.ca";
 
   const routes = [
     { path: "", priority: 1.0, changeFrequency: "monthly" },
