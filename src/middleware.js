@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+/*import { NextResponse } from "next/server";
 
 export function middleware(request) {
   const host = request.headers.get("host") || "";
@@ -19,3 +19,4 @@ export function middleware(request) {
 export const config = {
   matcher: "/:path*",
 };
+*/
